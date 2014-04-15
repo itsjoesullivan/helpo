@@ -2,7 +2,12 @@
   "name": "helpo",
   "description": "Easily display keyboard shortcuts",
   "version": "0.0.1",
-  "keywords": [],
+  "keywords": [
+    "keyboard",
+    "shortcut",
+    "shortcuts",
+    "help"
+  ],
   "dependencies": {
     "jashkenas/underscore": "*",
     "component/domify": "*",
