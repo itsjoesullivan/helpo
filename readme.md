@@ -1,6 +1,6 @@
 #helpo
 
-Display keyboard shortcuts
+Toggle a helpful list of keyboard shortcuts by typing '?'
 
 
 ## Usage
