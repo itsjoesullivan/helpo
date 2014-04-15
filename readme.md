@@ -26,3 +26,7 @@ var helpo = new Helpo([
   }
 ]);
 ```
+
+## Screenshot
+
+![Example of helpo in action](http://joesul.li/helpo/helpo-example.png)
