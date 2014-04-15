@@ -3,12 +3,18 @@
 Display keyboard shortcuts
 
 
-## API
+## Usage
 ```javascript
-var helpo = new Helpo( shortcutArray, [ contextEl ] );
+var shortcutArray = [
+  {
+    shortcut: String,
+    description: String
+  }
+];
+var helpo = new Helpo( shortcutArray );
 ```
 
-## Basic example
+## Example
 
 Listens for '?' on window by default
 
@@ -19,18 +25,4 @@ var helpo = new Helpo([
     description: 'save'
   }
 ]);
-```
-
-## Specify context with second argument
-
-Listens for '?' on <code>this.el</code>
-
-```javascript
-
-var helpo = new Helpo([
-  {
-    shortcut: 'cmd s',
-    description: 'save'
-  }
-], this.el);
 ```
