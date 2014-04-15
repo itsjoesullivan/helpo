@@ -1,0 +1,29 @@
+.helpo {
+  position: fixed;
+  width: 70%;
+  height: 70%;
+  top: 10%;
+  left: 13%;
+  background-color: rgba(0,0,0,0.5);
+  padding: 2%;
+  color: #fff;
+  font-family: arial;
+  -webkit-font-smoothing:antialiased;
+}
+.helpo h1 {
+  margin: 0;
+  font-weight: normal;
+}
+
+
+.helpo .shortcut {
+  font-family: monospace;
+  display: inline-block;
+  padding: 0.1em 0.3em;
+  height: 17px;
+  background-color: #eee;
+  color: #333;
+  border-radius: 3px;
+  border: 1px solid #666;
+  margin-right: 0.5em;
+}

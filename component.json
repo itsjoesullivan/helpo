@@ -1,0 +1,23 @@
+{
+  "name": "helpo",
+  "description": "Easily display keyboard shortcuts",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "jashkenas/underscore": "*",
+    "component/domify": "*",
+    "yields/k": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "templates": [
+    "template.html"
+  ]
+}
