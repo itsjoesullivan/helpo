@@ -3,13 +3,16 @@ var domify = require('domify');
 var _ = require('underscore');
 
 var Helpo = module.exports = function(instructions, context) {
-  context = context || window;
+  context = context || document.body || window;
   var k = require('k')(context);
   var el;
-  k('shift + /', function() {
+  k('shift + /', function(e) {
     if(el) {
       el.parentNode.removeChild(el);
       return el = false;
+    }
+    if(e.target !== context) {
+      return;
     }
     el = domify(template);
     document.body.appendChild(el);
