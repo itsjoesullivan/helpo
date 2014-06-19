@@ -29,4 +29,10 @@ var Helpo = module.exports = function(instructions, context) {
       el.appendChild(p);
     });
   });
+  require('k')(document.body)('escape', function(e) {
+    if (el) {
+      el.parentNode.removeChild(el);
+      el = false;
+    }
+  });
 };
