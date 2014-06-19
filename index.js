@@ -35,4 +35,14 @@ var Helpo = module.exports = function(instructions, context) {
       el = false;
     }
   });
+  require('k')(document.body)('shift + /', function(e) {
+    if( e.target === context ) {
+      return;
+    }
+    if (el) {
+      el.parentNode.removeChild(el);
+      el = false;
+    }
+    return false;
+  });
 };
